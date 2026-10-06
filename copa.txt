@@ -1,0 +1,167 @@
+# =====================================================================
+#  COPA DE CLUBES 2026 · Lo que se ve en la app (pestaña "Copa de Clubes")
+# =====================================================================
+#  Cómo se usa:
+#   1. Editá este archivo con el Bloc de notas y guardalo.
+#   2. Doble clic en "Publicar Copa.bat".
+#   3. En 5 a 10 minutos se ve en la app. No hace falta subir nada a Netlify.
+#
+#  Las líneas que empiezan con # no se publican (son notas para vos).
+#  Para publicar algo, borrá el # del principio de la línea.
+#
+#  DATOS DE ARRIBA (opcionales; si no están, la app usa los que ya tiene)
+#   INICIO: 2026-11-14 09:00
+".
+#   2. Pegalo al final de copa.txt (borrá antes el ejemplo "== Reglamento y puntaje"
+#      que tiene # adelante, si querés).
+#   3. Guardá y doble clic en "Publicar Copa.bat".
+#  Las líneas con # no se publican: son cosas que faltan definir.
+# =====================================================================
+
+---- DESDE ACÁ ----
+
+AVISO: ¡Ya está el reglamento de la Copa!
+
+== Reglamento: categorías
+Para U14, U16, U20 y Mayores rige el reglamento de la CADA. La edad es siempre la que el atleta cumple en 2026 (al 31 de diciembre).
+- U12: recreativa, para cualquier edad. No suma puntos.
+- U14: 12 y 13 años (nacidos en 2013 a 2015).
+- U16: 14 y 15 años (nacidos en 2011 a 2013).
+- U20: 16 a 19 años (nacidos de 2007 a 2010).
+- Mayores: 20 años o más (nacidos en 2006 y antes).
+- Máster 40–49 (nacidos de 1977 a 1986) y Máster 50+ (nacidos en 1976 y antes), mujeres y varones.
+Cada atleta suma puntos en una sola categoría.
+
+== Reglamento: pruebas y participación
+- Cada atleta puede hacer hasta 5 pruebas en total, contando las postas.
+- U14 y U16: no más de una prueba de más de 200 metros en el mismo día.
+- Concursos: 3 intentos y 3 intentos más para las 8 mejores marcas.
+- Si hay muchos inscriptos, el concurso se divide en Final A y Final B. Las dos se juntan por marca y pasan las 8 mejores, sin importar de qué grupo salgan.
+- Salto triple U16: la carrera de aproximación es de 16 metros (entre 7 y 9 zancadas).
+- Los atletas máster pueden integrar las postas de Mayores de su club. En ese caso corren como Mayores.
+
+== Reglamento: puntaje
+Suman puntos los 8 primeros de cada prueba.
+- Pruebas individuales: 9, 7, 6, 5, 4, 3, 2 y 1 puntos.
+- Postas: puntaje doble (18, 14, 12, 10, 8, 6, 4 y 2 puntos).
+- Récord: si un atleta supera el récord del torneo de su categoría, suma 6 puntos más. Si la prueba no tiene récord registrado, no hay puntos extra. Los récords están en esta misma sección.
+- Máster: se puntúa como si hubiera al menos 3 atletas en la prueba. Con un solo atleta, suma 6 puntos. Con dos, el 1° suma 7 y el 2° suma 6.
+Gana la Copa el club que sume más puntos.
+# Desempate: falta definir (por ejemplo, el club con más primeros puestos).
+
+== Reglamento: tabla de clubes
+- El sábado, la app muestra el top 10 de clubes, sin puntos, y se actualiza con cada resultado.
+- Desde el sábado a la noche la tabla se oculta hasta la premiación del domingo.
+
+== Reglamento: abstención de participar (RT WA 4.4)
+Si un atleta confirma y no compite, no puede participar en otras pruebas, salvo que presente un certificado del médico de la organización.
+La no participación injustificada en una final implica la inhabilitación para el resto del campeonato.
+# Confirmaciones y bajas: falta definir las fechas (en el torneo del 3/10 fue: confirmar hasta el viernes 20:00 y bajas del día antes de las 9:00).
+
+== Pruebas
+- U14: 80 m, 150 m, 600 m, 1200 m, salto en largo, bala y jabalina.
+- U16: 80 m, 150 m, 300 m, 600 m, milla, salto en largo, salto triple, bala, disco, jabalina y martillo.
+- U20 y Mayores: 80 m, 150 m, 300 m, 600 m, milla, 3000 m, salto en largo, salto triple, bala, disco, jabalina y martillo.
+- Máster: 80 m, 150 m, 300 m, 600 m, milla, 3000 m, salto en largo, salto triple, bala, disco, jabalina y martillo.
+- U12: prueba combinada recreativa.
+# Postas: falta definir cuáles son las dos postas de cada categoría.
+# Confirmar: ¿Mayores tiene jabalina? (en los récords la sacamos)
+
+== Récords de la Copa
+Mejores marcas en la historia de la Copa de Clubes. Superar un récord suma 6 puntos más para el club.
+
+U14 mujeres
+- 80 m: 11.12 · Muñoz Dulce (2025)
+- 150 m: 21.17 · Muñoz Dulce (2025)
+- 600 m: 1:59.7 (manual) · Arrix Aravena Xiomara Yanela (2019)
+- Salto en largo: 3.95 · Corbalan Morena (2019)
+- Bala: 5.49 · Escalona Valentina (2021)
+- Jabalina: 23.86 · Lola Moreno Garcia (2025)
+
+U14 varones
+- 80 m: 10.14 · Veliz Thiago David (2025)
+- 150 m: 19.14 · Veliz Thiago David (2025)
+- 600 m: 1:44.5 (manual) · Tolay Joaquin Emiliano (2019)
+- Salto en largo: 4.45 · Tomas Martinez (2025)
+- Bala: 6.77 · Cardenas Lorenzo (2021)
+- Jabalina: 21.39 · Tiziano Suarez Palacios (2025)
+
+U16 mujeres
+- 80 m: 10.57 · Marco Videla Mia Abril (2025)
+- 150 m: 19.8 (manual) · Zuñiga Mia (2024)
+- 300 m: 42.98 · Mon Julia (2018)
+- 600 m: 1:54.9 (manual) · Zucchi Bonnet Francisca (2019)
+- Milla: sin récord
+- Salto en largo: 4.52 · Benitez Salvarezza Maria Guadalupe (2024)
+- Salto triple: sin récord
+- Jabalina: 28.00 · Molina Luciana (2018)
+- Martillo: 40.27 · Baigorria Giuliana Alejandra (2018)
+- Disco: 26.34 · Perez Caceres Ara (2021)
+- Bala: 9.80 · Cardozo Camila (2018)
+
+U16 varones
+- 80 m: 9.49 · Santiago Mochkofsky Murillo (2025)
+- 150 m: 17.9 (manual) · Faccio Mathias (2024)
+- 300 m: 36.31 · Odunze Princewill Uzoma (2021)
+- 600 m: 1:35.3 (manual) · Acuña Julian Isaias (2019)
+- Milla: sin récord
+- Salto en largo: 5.58 · Garcia Gabriel (2025)
+- Salto triple: sin récord
+- Jabalina: 46.20 · Roth Lautaro Agustin (2018)
+- Martillo: 48.83 · Donoso Luca Matias (2019)
+- Disco: 31.64 · Bascuñan Julian Rodrigo (2025)
+- Bala: 13.91 · Erbiti Julian (2018)
+
+U20 mujeres
+- 80 m: 10.5 (manual) · Villalba Camila (2024)
+- 150 m: 19.6 (manual) · Borsetta Leticia (2024)
+- 300 m: 45.9 (manual) · Rajneri Lilen (2024)
+- 600 m: sin récord
+- Milla: 5:52.3 (manual) · Pacheco Malena (2024)
+- 3000 m: 13:35.52 · Cardenas Kiara (2018)
+- Salto en largo: 4.74 · Hoya Camila Belen (2018)
+- Salto triple: 10.81 · Hoya Camila Belen (2018)
+- Jabalina: 41.52 · Moraga Agustina (2018)
+- Martillo: 53.19 · Baigorria Giuliana Alejandra (2021)
+- Disco: 32.02 · Elsenbach Carolina Luján (2025)
+- Bala: 10.14 · Moraga Agustina (2019)
+
+U20 varones
+- 80 m: 9.0 (manual) · Tomas Reyes (2024)
+- 150 m: sin récord
+- 300 m: 36.1 (manual) · Tomas Reyes (2024)
+- 600 m: sin récord
+- Milla: 4:38.9 (manual) · Tejeda Schiavoni Federico Andrés (2024)
+- 3000 m: 9:46.56 · Acuña Kevin Daniel Alejandro (2018)
+- Salto en largo: 6.32 · Invinkelried Julian (2018)
+- Salto triple: 13.51 · Nahuel Bronzoni Barrera (2025)
+- Jabalina: 59.80 · Herlein Brian (2025)
+- Martillo: 41.52 · Morales Roldan Josue Ezequiel (2019)
+- Disco: 39.91 · Saa Garrido Julian (2025)
+- Bala: 12.24 · Rivas Rodriguez Jorge (2018)
+
+Mayores mujeres
+- 80 m: 9.4 (manual) · Salazar Agustina Anabella (2024)
+- 150 m: 19.7 (manual) · Robañera Malena (2024)
+- 300 m: 41.75 · Escudero Martina Daniela (2021)
+- 600 m: sin récord
+- Milla: 6:00.66 · Curilao Laura Evelin (2021)
+- 3000 m: 11:20.00 · Escudero Martina Daniela (2018)
+- Salto en largo: 4.52 · Salazar Agustina Anabella (2024)
+- Salto triple: sin récord
+- Martillo: 17.52 · Salazar Martina Antonella (2025)
+- Disco: sin récord
+- Bala: 7.24 · Boronat Claudia (2025)
+
+Mayores varones
+- 80 m: 9.1 (manual) · Ares Matias (2024)
+- 150 m: 16.7 (manual) · Hilchenbach Federico (2024)
+- 300 m: 36.92 · Bidiuk Joel (2021)
+- 600 m: sin récord
+- Milla: 4:40.25 · Toledo Ulises Nahuel (2021)
+- 3000 m: 9:17.74 · Ruiz Antonio (2018)
+- Salto en largo: 6.42 · Pavez Francisco (2024)
+- Salto triple: 14.46 · Pavez Francisco (2019)
+- Martillo: 52.76 · Olivera Gomez Juan Salvador (2025)
+- Disco: sin récord
+- Bala: 12.08 · Ose Alejandro (2024)
