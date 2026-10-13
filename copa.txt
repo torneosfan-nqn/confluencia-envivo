@@ -20,6 +20,9 @@
 
 ---- DESDE ACÁ ----
 
+INSCRIPCION: si
+CIERRE: 2026-11-07 23:59
+CRONOGRAMA: borrador
 AVISO: ¡Ya está el reglamento de la Copa!
 
 == Reglamento: categorías
@@ -38,7 +41,7 @@ Cada atleta suma puntos en una sola categoría.
 - Concursos: 3 intentos y 3 intentos más para las 8 mejores marcas.
 - Si hay muchos inscriptos, el concurso se divide en Final A y Final B. Las dos se juntan por marca y pasan las 8 mejores, sin importar de qué grupo salgan.
 - Salto triple U16: la carrera de aproximación es de 16 metros (entre 7 y 9 zancadas).
-- Los atletas máster pueden integrar las postas de Mayores de su club. En ese caso corren como Mayores.
+- Postas mixtas (2 mujeres y 2 varones): 4×100 U16 (atletas U14 y U16), 4×100 libre y posta sueca libre (100-200-300-400). En las libres puede correr cualquier atleta del club. Se arman el día del torneo.
 
 == Reglamento: puntaje
 Suman puntos los 8 primeros de cada prueba.
